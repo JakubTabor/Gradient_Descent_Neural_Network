@@ -5,3 +5,4 @@
 # Now I need to scale "age" in "train" and "test" set, so I make copy on both of them and "scale my age which is between 1 and 100"
 # I create simple "Neuronal Network" with only one "output neuron" "input_shape", so my "age and affordibility", "activation is sigmoid" 
 # Then "kernel_initializer", so my "weights" are initialize by "one" and "bias_initializer" by "zero" 
+# Next I "compile my model" with "optimizer adam" i have binary output so "loss is binary_crossentropy" and "metrics will be accuracy"
