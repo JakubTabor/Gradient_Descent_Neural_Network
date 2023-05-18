@@ -10,3 +10,4 @@
 # I check predicions and compare with real results, I also get "coefficient and intercept" using "model.get_weights()" for later comparison
 # I gonna use this model to compare with my hand written model, later
 # Now I write "activation function, so sigmoid", its simple function which return value in range 0 to 1, the pattern is "1/(1+math.exp(-x))"
+# Then I write "prediction function", so "weigthed_sum" that I gonna use later in my "gradient descent" 
