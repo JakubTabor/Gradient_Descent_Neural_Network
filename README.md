@@ -13,4 +13,5 @@
 # Then I write "prediction function", so "weigthed_sum" that I gonna use later in my "gradient descent" 
 # So I write is from the pattern "coef[0] * age + coef[1] * affordability + intercept" "w1 into age + w2 into affordability + bias"
 # Next I return my "weigthed_sum activated by sigmoid", then I can check some predictions 
-# Now I write "log_loss" function, so I set "epsilon to very low value", then i write code for "value very close to 0"
+# Now I write "log_loss" function, so I set "epsilon to very low value", then i write code for "value very close to 0" "[max(i,epsilon)for i in y_pred]"
+# An next for "value very close to 1" "[min(i,1-epsilon)for i in y_pred_new]", then I put it into array "np.array(y_pred_new)"
