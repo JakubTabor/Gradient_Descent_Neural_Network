@@ -7,3 +7,5 @@
 # Then "kernel_initializer", so my "weights" are initialize by "one" and "bias_initializer" by "zero" 
 # Next I "compile my model" with "optimizer adam" i have binary output so "loss is binary_crossentropy" and "metrics will be accuracy"
 # Then I train my model with "X_train_scaled , y_train" and number of "epochs are 5000", then I evaluate my model with "X_test_scaled, y_test"
+# 
+# I gonna use this model to compare with my hand written model, later
