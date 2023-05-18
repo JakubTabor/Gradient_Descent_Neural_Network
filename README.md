@@ -12,3 +12,4 @@
 # Now I write "activation function, so sigmoid", its simple function which return value in range 0 to 1, the pattern is "1/(1+math.exp(-x))"
 # Then I write "prediction function", so "weigthed_sum" that I gonna use later in my "gradient descent" 
 # So I write is from the pattern "coef[0] * age + coef[1] * affordability + intercept" "w1 into age + w2 into affordability + bias"
+# Next I return my "weigthed_sum activated by sigmoid", then I can check some predictions 
