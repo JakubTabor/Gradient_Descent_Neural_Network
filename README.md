@@ -16,3 +16,4 @@
 # Now I write "log_loss" function, so I set "epsilon to very low value", then i write code for "value very close to 0" "[max(i,epsilon)for i in y_pred]"
 # An next for "value very close to 1" "[min(i,1-epsilon)for i in y_pred_new]", then I put it into array "np.array(y_pred_new)"
 # "-np.mean(y_true*np.log(y_pred_new)+(1-y_true)*np.log(1-y_pred_new))", now I put it into a pattern using "mean and logarithm" 
+# Now I create "sigmoid_numpy", so it will return array instead of 1 value "1/(1+np.exp(-X))"
