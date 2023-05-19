@@ -18,3 +18,4 @@
 # "-np.mean(y_true*np.log(y_pred_new)+(1-y_true)*np.log(1-y_pred_new))", now I put it into a pattern using "mean and logarithm" 
 # Now I create "sigmoid_numpy", so it will return array instead of 1 value "1/(1+np.exp(-X))"
 # With this helpers functions I can create "Gradient Descent function" 
+# First I create variables "weights"  and save them as random value "w1 = w2 = 1" and "bias variable", also "learning_rate" value here is "try and error"
