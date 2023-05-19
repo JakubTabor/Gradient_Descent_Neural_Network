@@ -22,3 +22,4 @@
 # Now "length of samples", so "n = len(age)", Then I create "for loop" of my "epochs length" and put variable "weighted_sum" from "prediction_function" 
 # Then "y_pred", so my "weighted_sum" activated by "sigmoid_numpy", Now I have firs part of neuron "weighted_sum and activation function"
 # "loss" is my "log_loss function" which I use of "y_true and y_pred" 
+# Now I gonna define "derivatives", so I take "average of sum of age and then difference of y_pred and y_true"
