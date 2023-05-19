@@ -19,3 +19,4 @@
 # Now I create "sigmoid_numpy", so it will return array instead of 1 value "1/(1+np.exp(-X))"
 # With this helpers functions I can create "Gradient Descent function" 
 # First I create variables "weights"  and save them as random value "w1 = w2 = 1" and "bias variable", also "learning_rate" value here is "try and error"
+# Now "length of samples", so "n = len(age)", Then I create "for loop" of my "epochs length" and put variable "weighted_sum" from "prediction_function" 
