@@ -23,3 +23,4 @@
 # Then "y_pred", so my "weighted_sum" activated by "sigmoid_numpy", Now I have firs part of neuron "weighted_sum and activation function"
 # "loss" is my "log_loss function" which I use of "y_true and y_pred" 
 # Now I gonna define "derivatives", so I take "average of sum of age and then difference of y_pred and y_true"
+# Then " Next derivative", so I do this same on "affordibility", all calculation look like this "(1/n)*np.dot(np.transpose(affordibility),(y_pred-y_true))"
