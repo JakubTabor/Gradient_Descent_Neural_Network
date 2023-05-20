@@ -28,3 +28,4 @@
 # Now I can calculate my "weights" and "bias" "w1 = w1 - learning_rate * w1d" and "w2 = w2 - learning_rate * w2d" "bias = bias - learning_rate * bias_d"
 # And I gonna print my parameters every epoch "print(f'Epoch: {1}, w1:{w1}, w2:{w2}, bias:{bias}, loss:{loss}')"
 # Now I will stop my "loss" in this same point as my "tensorflow model"  "if loss<= loss_thresold: break" and I return wy weights "return w1, w2, bias"
+# Now I put into my function parameters "X_train_scaled of age" and "X_train_scaled of affordibility", "y_train", number of epochs and my loss
