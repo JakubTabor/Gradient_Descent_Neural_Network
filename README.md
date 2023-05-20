@@ -25,5 +25,6 @@
 # Now I gonna define "derivatives", so I take "average of sum of age and then difference of y_pred and y_true"
 # Then " Next derivative", so I do this same on "affordibility", all calculation look like this "(1/n)*np.dot(np.transpose(affordibility),(y_pred-y_true))"
 # Next "bias derivative", so "mean of difference of y_pred and y_true" with use of numpy "bias_d = np.mean(y_pred-y_true)"
-# Now I can calculate my "weigths" and "bias" "w1 = w1 - learning_rate * w1d" and "w2 = w2 - learning_rate * w2d" "bias = bias - learning_rate * bias_d"
+# Now I can calculate my "weights" and "bias" "w1 = w1 - learning_rate * w1d" and "w2 = w2 - learning_rate * w2d" "bias = bias - learning_rate * bias_d"
 # And I gonna print my parameters every epoch "print(f'Epoch: {1}, w1:{w1}, w2:{w2}, bias:{bias}, loss:{loss}')"
+# Now I will stop my "loss" in this same point as my "tensorflow model"  "if loss<= loss_thresold: break" and I return wy weights "return w1, w2, bias"
